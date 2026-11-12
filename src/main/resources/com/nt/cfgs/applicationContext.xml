@@ -17,7 +17,7 @@
 		
 	
 		
-		<context:property-placeholder  location="com/nt/commons/Info.properties"/>
+		<context:property-placeholder  location="classpath:com/nt/commons/Info.properties"/>
 
       <!--  alias name  for the DAO class bean id -->
         <alias name="${dao.id}" alias="db"/>
