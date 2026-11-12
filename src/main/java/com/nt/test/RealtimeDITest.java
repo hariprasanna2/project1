@@ -35,7 +35,7 @@ public class RealtimeDITest {
 		
 		//get Cotroller class object from  the IOC container  (dependency lookup)
 		CustomerOperationsController controller=
-				  ctx.getBean("custController",CustomerOperationsController.class);
+				  ctx.getBean("customerOperationsController",CustomerOperationsController.class);
 		
 		//invoke the b.method
 		try {
